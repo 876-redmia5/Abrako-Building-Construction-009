@@ -1,0 +1,91 @@
+<style>
+.moving-text {
+    display: inline-block;
+    animation: moveSlowly 8s ease-in-out infinite alternate;
+}
+<style>
+@keyframes rainbowColors {
+      0% { color: red; }
+      25% { color: blue; }
+      50% { color: green; }
+      75% { color: purple; }
+      100% { color: red; }
+
+      .rainbow {
+        animation: rainbowColors 4s linear infinitive;
+        text-shadow:0 0 10px 
+      currentColor;
+      }
+       text-shadow: 0 0 10px #ff0080,
+                      0 0 20px #00ffff
+                      0 0 30px #ff00ff;
+          font-size: 35px;
+          /* Your existing CSS stays here*/
+          a {
+            display: inline-block;
+            padding: 12px 20px;
+            margin: 8px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: bold;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+          }
+          .about-me {
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            line-height: 1.8;
+            text-align: center;
+          }
+          .motto {
+            color: #1769aa;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            letter-spacing: 1px;
+          }
+      </style>
+    }
+  from {
+    transform: translateX(-30px); 
+  }
+  to {
+    transform: translateX(30px)
+    to{
+    }
+  }
+body {
+    background-color: #f0f4f8;
+    font-family:Arial, sans-serif ;
+    text-align: center;
+    margin: 0;
+    padding:50px 20px;
+}
+h1 {
+    color: #1565c0;
+    font-size: 36px;
+}
+
+p {
+    color: #333333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #1565c0;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d47a1;
+}
+</style>
